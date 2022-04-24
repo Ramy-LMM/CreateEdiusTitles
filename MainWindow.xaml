@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CreateEdiusTitles"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Create Edius titles" Height="450" Width="800">
+	<Grid>
+		<Button Content="etlファイルを生成するテキストファイル" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="button1" VerticalAlignment="Top" Width="256" Click="Create_Click" Grid.ColumnSpan="2" />
+		<TextBlock Name="FinishTextBlock" Margin="0,100,0,0" FontWeight="Bold" FontSize="100"></TextBlock>
+	</Grid>
 </Window>
